@@ -1,0 +1,2 @@
+#/bin/sh
+g++ boids2.cc $(pkg-config --cflags --libs raylib) -std=c++17 -O0 -o boids2
